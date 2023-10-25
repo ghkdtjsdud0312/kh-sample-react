@@ -3,6 +3,9 @@ import "./App.css";
 import Section from "./Section";
 import MyComponent from "./MyComponent";
 import Say from "./Say";
+import Clock from "./Clock";
+import EventPractice from "./OnChange";
+import EventHandler from "./EventHandler";
 
 function App() {
   return (
@@ -12,7 +15,10 @@ function App() {
       {/* <MyComponent name="곰돌이사육사" age={30}>
         안녕하세요^^
       </MyComponent> */}
-      <Say />
+      {/* <Say /> */}
+      {/* <Clock /> */}
+      {/* <EventPractice /> */}
+      <EventHandler />
     </>
   );
 }

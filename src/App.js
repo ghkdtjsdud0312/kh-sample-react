@@ -10,6 +10,7 @@ import FruitSelect from "./FruitSelect";
 import RadioButton from "./RadioButton";
 import Table from "./Table";
 import TableMap from "./TableMap";
+import CreateRef from "./UseRef";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <FruitSelect /> */}
       {/* <RadioButton /> */}
       {/* <Table /> */}
-      <TableMap />
+      {/* <TableMap /> */}
+      <CreateRef />
     </>
   );
 }

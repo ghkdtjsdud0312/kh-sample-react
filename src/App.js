@@ -8,6 +8,8 @@ import EventPractice from "./OnChange";
 import EventHandler from "./EventHandler";
 import FruitSelect from "./FruitSelect";
 import RadioButton from "./RadioButton";
+import Table from "./Table";
+import TableMap from "./TableMap";
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
       {/* <EventPractice /> */}
       {/* <EventHandler /> */}
       {/* <FruitSelect /> */}
-      <RadioButton />
+      {/* <RadioButton /> */}
+      {/* <Table /> */}
+      <TableMap />
     </>
   );
 }

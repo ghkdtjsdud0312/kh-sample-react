@@ -6,6 +6,8 @@ import Say from "./Say";
 import Clock from "./Clock";
 import EventPractice from "./OnChange";
 import EventHandler from "./EventHandler";
+import FruitSelect from "./FruitSelect";
+import RadioButton from "./RadioButton";
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
       {/* <Say /> */}
       {/* <Clock /> */}
       {/* <EventPractice /> */}
-      <EventHandler />
+      {/* <EventHandler /> */}
+      {/* <FruitSelect /> */}
+      <RadioButton />
     </>
   );
 }

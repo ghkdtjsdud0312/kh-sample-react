@@ -15,6 +15,7 @@ import UserList from "./UserList";
 import TodoList from "./TodoList";
 import NameCard from "./NameCard";
 import MemberInfo from "./Hooks2";
+import Counter2 from "./Hooks3";
 
 function App() {
   return (
@@ -37,7 +38,8 @@ function App() {
       {/* <TodoList /> */}
       {/* <Counter /> */}
       {/* <NameCard /> */}
-      <MemberInfo />
+      {/* <MemberInfo /> */}
+      <Counter2 />
     </>
   );
 }

@@ -8,10 +8,11 @@ const MemberInfo = () => {
   const [name, setName] = useState("");
   const [nickName, setNickName] = useState("");
 
+  // [] : 의존성 배열이라고 하며, 아무 값을 넣지 않으면 mount시에만 호출됨!!
   useEffect(() => {
     console.log("렌더링이 완료되었습니다.");
     console.log(name, nickName);
-  }, []); // [] 빈 배열 넣으면 치는것마다 렌더링되지 않고 처음에만 됨, 값들어가는 배열을 안 넣으면 무한 로딩됨
+  }, [nickName]); // [] 안에 값을 넣으면 그 곳만 무한 렌더링됨/[] 빈 배열 넣으면 치는것마다 렌더링되지 않고 처음에만 됨, 값들어가는 배열을 안 넣으면 무한 로딩됨
   const onChangeName = (e) => {
     setName(e.target.value);
   };

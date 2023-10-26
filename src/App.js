@@ -13,7 +13,7 @@ import TableMap from "./TableMap";
 import CreateRef from "./UseRef";
 import UserList from "./UserList";
 import TodoList from "./TodoList";
-import UseState from "./HooksEx";
+import NameCard from "./NameCard";
 
 function App() {
   return (
@@ -35,7 +35,7 @@ function App() {
       {/* <UserList /> */}
       {/* <TodoList /> */}
       {/* <Counter /> */}
-      <UseState />
+      <NameCard />
     </>
   );
 }

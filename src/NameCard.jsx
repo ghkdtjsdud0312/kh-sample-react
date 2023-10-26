@@ -1,15 +1,15 @@
 import { useState } from "react";
 
-const NameCardPrn = (props) => {
+const NameCardPrn = ({ nameCard }) => {
   return (
     <>
       <h3>명함 정보 출력</h3>
-      <p>이름 : {props.nameCard.name}</p>
-      <p>직책 : {props.nameCard.position}</p>
-      <p>회사 : {props.nameCard.company}</p>
-      <p>주소 : {props.nameCard.addr}</p>
-      <p>메일 : {props.nameCard.email}</p>
-      <p>전화 : {props.nameCard.phone}</p>
+      <p>이름 : {nameCard.name}</p>
+      <p>직책 : {nameCard.position}</p>
+      <p>회사 : {nameCard.company}</p>
+      <p>주소 : {nameCard.addr}</p>
+      <p>메일 : {nameCard.email}</p>
+      <p>전화 : {nameCard.phone}</p>
     </>
   );
 };

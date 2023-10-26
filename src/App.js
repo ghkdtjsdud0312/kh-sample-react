@@ -14,6 +14,7 @@ import CreateRef from "./UseRef";
 import UserList from "./UserList";
 import TodoList from "./TodoList";
 import NameCard from "./NameCard";
+import MemberInfo from "./Hooks2";
 
 function App() {
   return (
@@ -35,7 +36,8 @@ function App() {
       {/* <UserList /> */}
       {/* <TodoList /> */}
       {/* <Counter /> */}
-      <NameCard />
+      {/* <NameCard /> */}
+      <MemberInfo />
     </>
   );
 }
